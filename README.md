@@ -29,3 +29,17 @@ Install dependencies via:
 sudo apt update
 sudo apt install python3-opencv python3-picamera2
 pip install tflite-runtime numpy
+```
+
+## Dataset & Trained Model
+
+You can download the training dataset and the pre-trained YOLOv8 model in TensorFlow Lite format from the link below:
+
+[ Google Drive: Dataset + TFLite Model](https://drive.google.com/file/d/15_Ndu-UxpKIqCkTnud6SGMLe7qawkzmw/view?usp=sharing)
+
+### Contents of the archive:
+- `images/` → Arrow direction images used for training (left/right)
+- `labels/` → YOLO-format annotation files
+- `data.yaml` → YOLOv8 dataset configuration file
+- `best_float32.tflite` → Trained YOLOv8 model converted to TensorFlow Lite format
+
